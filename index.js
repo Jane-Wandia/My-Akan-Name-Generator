@@ -7,12 +7,28 @@ function submitFore(event);{
         "akanForm"    
     ]["gender"].value;
     var akanName =""
-}
+};
 var femaleNames =[
-    "Akosua",
-    "Adwoa",
-    "Abenaa",
-    "Akua",
-    "Yaa",
-    "Afua"
-]
+  "Akosua",
+  "Adwoa",
+  "Abenaa",
+  "Akua",
+  "Yaa",
+  "Afua",
+  "Ama",
+    ];
+var maleNames =[
+    "Kwasi",
+    "Kudwo",
+    "Kwabena",
+    "Kwaku",
+    "Yaw",
+    "Kofi",
+    "Kwame"
+];
+var dateObject =new Date(date);
+var day =dateObject.getDay();
+
+if (day !=null && gender != null){
+    if (gender ===)
+}
