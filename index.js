@@ -24,11 +24,23 @@ var maleNames =[
     "Kwaku",
     "Yaw",
     "Kofi",
-    "Kwame"
+    "Kwame",    
 ];
 var dateObject =new Date(date);
 var day =dateObject.getDay();
 
 if (day !=null && gender != null){
-    if (gender ===)
+    if (gender === "male"){
+        akanName = maleNames[day];
+    };
+    
+};
+
+else{
+    akanName = femaleNames[day];
 }
+
+document.getElementById(
+    "akanNames").innerHTML= akanName;
+
+
