@@ -4,27 +4,8 @@ function submitFore(event);{
         "akanForm"
     ]["*birthday"].valeu;
     var gender =documents.forms[
-        "akanForm"    
+        "akanForm"   
     ]["gender"].value;
     var akanName ="";
 }
 
-var femaleNames =[
-    "Akosua",
-    "Adwoa",
-    "Abenaa",
-    "Akua",
-    "Akua",
-    "Yaa",
-    "Afua",
-    "Ama"
-];
-var maleNames =[
-    "Kwasi",
-    "Kudwo",
-    "Kwabena",
-    "Kwaku",
-    "Yaw",
-    "Kofi",
-    "Kwame"
-];
